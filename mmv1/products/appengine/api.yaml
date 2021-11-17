@@ -1434,7 +1434,7 @@ objects:
         name: 'migrate_traffic'
         url_param_only: true
         description: |
-          If set to true traffic will be migrated to this version.
+          If set to true traffic will be migrated to this version gradually.
     properties:
       - !ruby/object:Api::Type::String
         name: 'service'
